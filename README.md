@@ -6,7 +6,7 @@ A modern, responsive portfolio site for **Raj Patel**, Entry-Level Machine Learn
 
 ## Live Demo
 
-- **GitHub Pages:** [Add your GitHub Pages URL here after deployment]
+- **GitHub Pages:** https://r-makasana.github.io/portfolio/
 - **Local:** Open `index.html` in a browser or use a local server.
 
 ---
