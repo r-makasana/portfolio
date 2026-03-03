@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Sho
 
 ## 🌐 Live Demo
 
-**[View Live Site](https://r-makasana.github.io/portfolio/)**
+**[View Live Site]**
 
 ---
 
