@@ -28,7 +28,7 @@
     </div>
     <nav class="site-nav" id="site-nav">
       <a href="#intro" class="nav-link">Intro</a>
-      <a href="#what-i-do" class="nav-link">What I Do</a>
+      <a href="#projects" class="nav-link">Projects</a>
       <a href="#experience" class="nav-link">Experience</a>
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#education" class="nav-link">Education</a>
@@ -77,17 +77,6 @@
             <div class="avatar-glow"></div>
             <img src="images/profile.jpg" alt="Portrait of Raj Patel" />
           </div>
-          <div class="quick-facts glass-card">
-            <div class="fact-item">
-              <span class="fact-label">Current focus</span>
-              <span class="fact-value">Seeking entry‑level ML / Data roles</span>
-              <span class="fact-company">Boston, MA</span>
-            </div>
-            <div class="fact-item">
-              <span class="fact-label">Focus areas</span>
-              <span class="fact-value">Predictive models, NLP, time‑series, recommendation systems, cloud deployment.</span>
-            </div>
-          </div>
           <div class="intro-links">
             <a href="mailto:raj.patel190702@gmail.com" class="social-link" data-tooltip="Email">
               <i class="fas fa-envelope"></i>
@@ -106,65 +95,65 @@
       </div>
     </section>
 
-    <!-- What I Do -->
-    <section id="what-i-do" class="section narrative">
+    <!-- Projects -->
+    <section id="projects" class="section narrative">
       <div class="section-header">
-        <h2 class="section-title">What I do</h2>
-        <p>I sit at the intersection of data, machine learning, and engineering — from problem framing to deployed solutions.</p>
+        <h2 class="section-title">Projects</h2>
+        <p>End‑to‑end ML projects from data and model training to deployment — recommenders, NLP, and explainable classification.</p>
       </div>
       <div class="narrative-grid">
         <article class="narrative-block card-hover">
           <div class="card-icon">
-            <i class="fas fa-brain"></i>
+            <i class="fas fa-film"></i>
           </div>
-          <h3>1. Build ML &amp; NLP solutions</h3>
+          <h3>Movie Recommendation System</h3>
           <p>
-            I develop donor segmentation and forecasting models (K‑Means, Random Forest, ARIMA, LSTM) and deploy NLP pipelines with Hugging Face and LangChain to summarize feedback and reports.
+            Content‑based movie recommender built with Python and scikit‑learn. Uses feature extraction and similarity scoring to suggest films based on user preferences, achieving ~96% accuracy on held‑out evaluation.
           </p>
           <p>
-            At Menzies Mission, this improved program efficiency by ~30% and cut manual review time by ~40%.
+            Deployed with a simple web UI for interactive recommendations. Demonstrates full pipeline from data preprocessing to a usable application.
           </p>
           <div class="pill-row">
             <span class="pill">Python</span>
             <span class="pill">Scikit‑Learn</span>
-            <span class="pill">TensorFlow</span>
-            <span class="pill">NLP</span>
+            <span class="pill">Content-based filtering</span>
           </div>
         </article>
 
         <article class="narrative-block card-hover">
           <div class="card-icon">
-            <i class="fas fa-chart-line"></i>
+            <i class="fas fa-microphone"></i>
           </div>
-          <h3>2. Data analytics &amp; dashboards</h3>
+          <h3>Speech-to-Text Lecture Summarization</h3>
           <p>
-            I analyze manufacturing and sales data to find bottlenecks and build interactive Power BI dashboards for daily output, sales, and inventory. I clean and standardize large datasets with Python and SQL.
+            NLP pipeline that transcribes lecture audio and generates concise summaries using speech recognition and summarization models. Achieved ~90% summarization accuracy and reduced manual note‑taking time by ~75% in testing.
           </p>
           <p>
-            At Power Master Industries, this helped improve production and reporting efficiency by ~25%.
+            Built with Python; integrates transcription APIs and NLP libraries to produce structured, readable summaries for students and educators.
           </p>
           <div class="pill-row">
-            <span class="pill">Power BI</span>
             <span class="pill">Python</span>
-            <span class="pill">SQL</span>
+            <span class="pill">NLP</span>
+            <span class="pill">Speech-to-Text</span>
           </div>
         </article>
 
         <article class="narrative-block card-hover">
           <div class="card-icon">
-            <i class="fas fa-robot"></i>
+            <i class="fas fa-shield-halved"></i>
           </div>
-          <h3>3. End‑to‑end ML projects</h3>
+          <h3>Honeypot Attack Classification</h3>
           <p>
-            I build content‑based recommenders, speech‑to‑text summarization systems, and classification pipelines — from data and model training to deployment on AWS SageMaker or a simple web UI.
+            Classification model to detect and categorize honeypot attack types from network/behavioral data. Uses scikit‑learn and includes explainable AI with LIME so security analysts can interpret why a sample was flagged.
           </p>
           <p>
-            Projects include movie recommendation (~96% accuracy), lecture summarization (~90% accuracy, ~75% less manual note‑taking), and honeypot attack classification with explainable AI (LIME).
+            Covers data preprocessing, model training, evaluation, and interpretability — useful for security monitoring and threat analysis workflows.
           </p>
           <div class="pill-row">
-            <span class="pill">AWS SageMaker</span>
-            <span class="pill">JavaScript</span>
+            <span class="pill">Python</span>
+            <span class="pill">Scikit‑Learn</span>
             <span class="pill">LIME</span>
+            <span class="pill">Cybersecurity</span>
           </div>
         </article>
       </div>
@@ -239,42 +228,34 @@
       <div class="skills-columns">
         <div class="skills-column glass-card">
           <div class="skill-icon"><i class="fas fa-code"></i></div>
-          <h3>Frontend</h3>
-          <ul>
-            <li><i class="fas fa-check-circle"></i> HTML5, CSS3, JavaScript</li>
-            <li><i class="fas fa-check-circle"></i> Responsive layouts</li>
-          </ul>
-
-          <div class="skill-icon"><i class="fas fa-database"></i></div>
-          <h3>Backend &amp; Data</h3>
+          <h3>Programming &amp; Data Foundations</h3>
           <ul>
             <li><i class="fas fa-check-circle"></i> Python, C++, Java, C, SQL</li>
-            <li><i class="fas fa-check-circle"></i> MySQL, PostgreSQL, Hadoop</li>
-            <li><i class="fas fa-check-circle"></i> Data modeling, ETL basics</li>
+            <li><i class="fas fa-check-circle"></i> Data Structures &amp; Basics</li>
+            <li><i class="fas fa-check-circle"></i> Data Modeling, ETL Basics</li>
           </ul>
         </div>
 
         <div class="skills-column glass-card">
           <div class="skill-icon"><i class="fas fa-brain"></i></div>
-          <h3>Machine Learning</h3>
+          <h3>Machine Learning &amp; Analytics</h3>
           <ul>
             <li><i class="fas fa-check-circle"></i> Scikit‑Learn, XGBoost, PyTorch, TensorFlow, Keras</li>
             <li><i class="fas fa-check-circle"></i> NumPy, Pandas, Matplotlib, NLTK</li>
-            <li><i class="fas fa-check-circle"></i> Regression, Random Forest, SVM, Naïve Bayes, NLP, CNN</li>
-            <li><i class="fas fa-check-circle"></i> Time‑series (ARIMA, LSTM)</li>
-          </ul>
-
-          <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
-          <h3>Data &amp; Analytics</h3>
-          <ul>
+            <li><i class="fas fa-check-circle"></i> Regression, Random Forest, SVM, Naïve Bayes</li>
+            <li><i class="fas fa-check-circle"></i> NLP, CNN</li>
+            <li><i class="fas fa-check-circle"></i> Time‑Series: ARIMA, LSTM</li>
             <li><i class="fas fa-check-circle"></i> Power BI, Tableau, Excel</li>
           </ul>
         </div>
 
         <div class="skills-column glass-card">
           <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-          <h3>Cloud &amp; DevOps</h3>
+          <h3>Web, Cloud &amp; Tools</h3>
           <ul>
+            <li><i class="fas fa-check-circle"></i> HTML5, CSS3, JavaScript</li>
+            <li><i class="fas fa-check-circle"></i> Responsive Layouts</li>
+            <li><i class="fas fa-check-circle"></i> MySQL, PostgreSQL, Hadoop</li>
             <li><i class="fas fa-check-circle"></i> AWS (EC2, S3, IAM, SageMaker)</li>
             <li><i class="fas fa-check-circle"></i> Docker, CI/CD, Jenkins</li>
             <li><i class="fas fa-check-circle"></i> Git, GitHub</li>
