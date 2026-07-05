@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raj Patel | Entry‑Level Machine Learning Engineer</title>
-  <meta name="description" content="Portfolio of Raj Patel, entry‑level Machine Learning Engineer specializing in ML, data analytics, NLP, and cloud deployment." />
+  <title>Raj Patel | Machine Learning Engineer</title>
+  <meta name="description" content="Portfolio of Raj Patel, Machine Learning Engineer specializing in ML, NLP, LLMs, and cloud deployment." />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
-  <!-- Animated background -->
   <div class="bg-animation">
     <div class="grid-overlay"></div>
     <div class="gradient-orb orb-1"></div>
@@ -17,14 +16,13 @@
     <div class="gradient-orb orb-3"></div>
   </div>
 
-  <!-- Fixed Sidebar / Top Nav -->
   <header class="site-header">
     <div class="brand">
       <a href="#intro">
         <span class="logo-text">RP</span>
         <span class="brand-name">RAJ PATEL</span>
       </a>
-      <span class="tagline">Entry‑Level Machine Learning Engineer</span>
+      <span class="tagline">Machine Learning Engineer</span>
     </div>
     <nav class="site-nav" id="site-nav">
       <a href="#intro" class="nav-link">Intro</a>
@@ -35,7 +33,6 @@
       <a href="#certification" class="nav-link">Certification</a>
       <a href="#contact" class="nav-link">Contact</a>
     </nav>
-
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
       <span></span><span></span><span></span>
     </button>
@@ -48,15 +45,15 @@
         <div class="intro-text fade-in">
           <p class="eyebrow">
             <i class="fas fa-location-dot"></i> Ahmedabad, Gujarat
-            <span class="separator">·</span>
-            Machine Learning &amp; Data Engineering
+            <span class="separator">&middot;</span>
+            Machine Learning &amp; Generative AI
           </p>
           <h1 class="gradient-text">
-            I build data‑driven,<br />
+            I build data&#8209;driven,<br />
             deployable intelligence.
           </h1>
           <p class="lead">
-            Entry‑level Machine Learning Engineer with experience building predictive models, analytics pipelines, and cloud‑deployed ML solutions. I focus on turning data into useful predictions and clear, production‑ready tools.
+            Machine Learning Engineer with experience building AI, NLP, and predictive analytics solutions using Python, TensorFlow, Scikit&#8209;Learn, Hugging Face Transformers, and AWS. Skilled in Generative AI, LangChain, prompt engineering, deep learning, and time&#8209;series forecasting. I build end&#8209;to&#8209;end ML pipelines and transformer&#8209;based applications that improve operational efficiency and decision&#8209;making.
           </p>
           <div class="intro-actions">
             <a href="#contact" class="btn primary">
@@ -87,7 +84,7 @@
             <a href="https://github.com/r-makasana" target="_blank" rel="noopener" class="social-link" data-tooltip="GitHub">
               <i class="fab fa-github"></i>
             </a>
-            <a href="https://drive.google.com/file/d/1tOJDtm24OlOKo1drbkkTV35U0IjGrLjm/view?usp=drive_link" target="_blank" rel="noopener" class="social-link" data-tooltip="Download Resume">
+            <a href="https://drive.google.com/file/d/1WrWQH26XhGCFngBLB41iernQIk47pDD6/view?usp=drive_link" target="_blank" rel="noopener" class="social-link" data-tooltip="Download Resume">
               <i class="fas fa-file-pdf"></i>
             </a>
           </div>
@@ -99,63 +96,65 @@
     <section id="projects" class="section narrative">
       <div class="section-header">
         <h2 class="section-title">Projects</h2>
-        <p>End‑to‑end ML projects from data and model training to deployment — recommenders, NLP, and explainable classification.</p>
+        <p>End&#8209;to&#8209;end ML and quantum computing projects &mdash; tamper&#8209;evident QR codes, NLP summarization, and explainable attack classification.</p>
       </div>
       <div class="narrative-grid">
+
         <article class="narrative-block card-hover">
-          <div class="card-icon">
-            <i class="fas fa-film"></i>
-          </div>
-          <h3>Movie Recommendation System</h3>
+          <div class="card-icon"><i class="fas fa-qrcode"></i></div>
+          <h3>Quantum Tamper&#8209;Evident QR Codes</h3>
           <p>
-            Content‑based movie recommender built with Python and scikit‑learn. Uses feature extraction and similarity scoring to suggest films based on user preferences, achieving ~96% accuracy on held‑out evaluation.
+            End&#8209;to&#8209;end tamper&#8209;evident QR generator pairing a 128&#8209;qubit quantum&#8209;random nonce with HMAC&#8209;SHA256 integrity tags, with chi&#8209;square&#8209;validated randomness and full pytest coverage.
           </p>
           <p>
-            Deployed with a simple web UI for interactive recommendations. Demonstrates full pipeline from data preprocessing to a usable application.
+            Implemented Deutsch&#8209;Jozsa and Bernstein&#8209;Vazirani circuits to recover a tamper &ldquo;secret&rdquo; in a single quantum query, backed by a modular codebase and documented threat model.
           </p>
           <div class="pill-row">
             <span class="pill">Python</span>
-            <span class="pill">Scikit‑Learn</span>
-            <span class="pill">Content-based filtering</span>
+            <span class="pill">Qiskit</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">pytest</span>
           </div>
+          <a href="https://github.com/r-makasana/quantum-tamper-evident-qr" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View Code
+          </a>
         </article>
 
         <article class="narrative-block card-hover">
-          <div class="card-icon">
-            <i class="fas fa-microphone"></i>
-          </div>
-          <h3>Speech-to-Text Lecture Summarization</h3>
+          <div class="card-icon"><i class="fas fa-microphone"></i></div>
+          <h3>Speech&#8209;to&#8209;Text Lecture Summarization</h3>
           <p>
-            NLP pipeline that transcribes lecture audio and generates concise summaries using speech recognition and summarization models. Achieved ~90% summarization accuracy and reduced manual note‑taking time by ~75% in testing.
-          </p>
-          <p>
-            Built with Python; integrates transcription APIs and NLP libraries to produce structured, readable summaries for students and educators.
+            End&#8209;to&#8209;end NLP pipeline using Google Speech&#8209;to&#8209;Text API and transformer&#8209;based summarization models, deployed on AWS SageMaker for real&#8209;time processing. Cut manual note&#8209;taking by ~75% and achieved ~90% transcription accuracy.
           </p>
           <div class="pill-row">
             <span class="pill">Python</span>
+            <span class="pill">TensorFlow</span>
+            <span class="pill">AWS SageMaker</span>
             <span class="pill">NLP</span>
-            <span class="pill">Speech-to-Text</span>
           </div>
+          <a href="https://github.com/r-makasana" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View Code
+          </a>
         </article>
 
         <article class="narrative-block card-hover">
-          <div class="card-icon">
-            <i class="fas fa-shield-halved"></i>
-          </div>
-          <h3>Honeypot Attack Classification</h3>
+          <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>Honeypot Attack Classification &amp; Forecasting</h3>
           <p>
-            Classification model to detect and categorize honeypot attack types from network/behavioral data. Uses scikit‑learn and includes explainable AI with LIME so security analysts can interpret why a sample was flagged.
-          </p>
-          <p>
-            Covers data preprocessing, model training, evaluation, and interpretability — useful for security monitoring and threat analysis workflows.
+            Identified the best&#8209;performing attack classifier by training Random Forest and XGBoost models on honeypot data, evaluated via ROC&#8209;AUC, confusion matrix, and classification reports. Predicted attack timing and protocols with ARIMA and surfaced key driving features with LIME explainable AI.
           </p>
           <div class="pill-row">
             <span class="pill">Python</span>
-            <span class="pill">Scikit‑Learn</span>
+            <span class="pill">Scikit&#8209;Learn</span>
+            <span class="pill">XGBoost</span>
+            <span class="pill">ARIMA</span>
             <span class="pill">LIME</span>
-            <span class="pill">Cybersecurity</span>
           </div>
+          <a href="https://github.com/r-makasana" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View Code
+          </a>
         </article>
+
       </div>
     </section>
 
@@ -167,18 +166,19 @@
       </div>
 
       <div class="timeline">
+
         <article class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content glass-card">
             <header>
               <h3>Software Engineer, Machine Learning</h3>
-              <span class="company"><i class="fas fa-building"></i> Menzies Mission · Remote</span>
-              <span class="date"><i class="far fa-calendar"></i> Feb 2025 – Dec 2025</span>
+              <span class="company"><i class="fas fa-building"></i> Menzies Mission &middot; Remote</span>
+              <span class="date"><i class="far fa-calendar"></i> Feb 2025 &ndash; Present</span>
             </header>
             <ul>
-              <li>Improved NGO program efficiency by ~30% with donor segmentation models (K‑Means, Random Forest) in Python, Scikit‑Learn, and TensorFlow.</li>
-              <li>Predicted donation patterns using time‑series forecasting (ARIMA, LSTM) to support budget planning and program funding.</li>
-              <li>Deployed NLP pipelines with Hugging Face Transformers and LangChain to summarize beneficiary feedback and field reports, reducing manual review time by ~40%.</li>
+              <li>Reduced manual review time ~40% by deploying transformer&#8209;based NLP pipelines (Hugging Face Transformers, LangChain) that summarized beneficiary feedback and field reports.</li>
+              <li>Improved fundraising and resource&#8209;allocation efficiency ~30% by building donor segmentation models (K&#8209;Means, Random Forest) in Python, Scikit&#8209;Learn, and TensorFlow.</li>
+              <li>Enabled data&#8209;driven budget planning and community&#8209;program funding decisions by forecasting donation patterns with time&#8209;series models (ARIMA, LSTM).</li>
             </ul>
           </div>
         </article>
@@ -189,13 +189,12 @@
             <header>
               <h3>Data Analyst</h3>
               <span class="company"><i class="fas fa-building"></i> Power Master Industries</span>
-              <span class="date"><i class="far fa-calendar"></i> Sep 2021 – Jul 2022</span>
+              <span class="date"><i class="far fa-calendar"></i> Sep 2021 &ndash; Jul 2022</span>
             </header>
             <ul>
-              <li>Improved production and reporting efficiency by ~25% by analyzing manufacturing and sales data for process delays and resource gaps.</li>
-              <li>Developed interactive Power BI dashboards for daily output, sales, and inventory to support management decisions.</li>
-              <li>Cleaned and standardized large datasets with Python (Pandas) and SQL, significantly increasing data accuracy.</li>
-              <li>Collaborated with operations, quality, and sales teams to resolve data inconsistencies and deliver actionable insights.</li>
+              <li>Improved production and reporting efficiency ~25% by analyzing manufacturing and sales data to surface process delays and resource gaps.</li>
+              <li>Accelerated management decision&#8209;making by building interactive Power BI dashboards tracking daily output, sales, and inventory.</li>
+              <li>Increased data accuracy across reporting by cleaning and standardizing large datasets with Python (Pandas) and SQL.</li>
             </ul>
           </div>
         </article>
@@ -206,15 +205,16 @@
             <header>
               <h3>Machine Learning Intern</h3>
               <span class="company"><i class="fas fa-building"></i> ShreeHari Technology</span>
-              <span class="date"><i class="far fa-calendar"></i> Jun 2021 – Aug 2021</span>
+              <span class="date"><i class="far fa-calendar"></i> Jun 2021 &ndash; Aug 2021</span>
             </header>
             <ul>
-              <li>Processed and analyzed client business datasets (transactions, usage logs, service requests) using Python, Pandas, and NumPy; delivered insights via dashboards and charts.</li>
-              <li>Built Deep Neural Networks to classify user behavior and predict churn, improving prediction accuracy by ~15%.</li>
-              <li>Developed a sentiment analysis module (Naïve Bayes, SVM) for a client feedback system to improve engagement and response efficiency.</li>
+              <li>Improved churn&#8209;prediction accuracy ~15% by building deep neural networks to classify user behavior.</li>
+              <li>Improved client&#8209;response efficiency by developing a sentiment&#8209;analysis module (Na&iuml;ve Bayes, SVM) that auto&#8209;classified user feedback.</li>
+              <li>Delivered actionable insights via dashboards by processing transaction, usage, and service&#8209;request datasets with Python, Pandas, and NumPy.</li>
             </ul>
           </div>
         </article>
+
       </div>
     </section>
 
@@ -222,45 +222,45 @@
     <section id="skills" class="section skills">
       <div class="section-header">
         <h2 class="section-title">Skills &amp; Tools</h2>
-        <p>Hands‑on with ML pipelines, data platforms, cloud, and full‑stack tools.</p>
+        <p>Hands&#8209;on with GenAI, ML pipelines, LLM frameworks, data platforms, and cloud tools.</p>
       </div>
 
       <div class="skills-columns">
+
         <div class="skills-column glass-card">
-          <div class="skill-icon"><i class="fas fa-code"></i></div>
-          <h3>Programming &amp; Data Foundations</h3>
+          <div class="skill-icon"><i class="fas fa-robot"></i></div>
+          <h3>GenAI &amp; NLP</h3>
           <ul>
-            <li><i class="fas fa-check-circle"></i> Python, C++, Java, C, SQL</li>
-            <li><i class="fas fa-check-circle"></i> Data Structures &amp; Basics</li>
-            <li><i class="fas fa-check-circle"></i> Data Modeling, ETL Basics</li>
+            <li><i class="fas fa-check-circle"></i> Hugging Face Transformers</li>
+            <li><i class="fas fa-check-circle"></i> LangChain</li>
+            <li><i class="fas fa-check-circle"></i> NLP, Prompt Engineering</li>
           </ul>
         </div>
 
         <div class="skills-column glass-card">
           <div class="skill-icon"><i class="fas fa-brain"></i></div>
-          <h3>Machine Learning &amp; Analytics</h3>
+          <h3>ML &amp; Deep Learning</h3>
           <ul>
-            <li><i class="fas fa-check-circle"></i> Scikit‑Learn, XGBoost, PyTorch, TensorFlow, Keras</li>
-            <li><i class="fas fa-check-circle"></i> NumPy, Pandas, Matplotlib, NLTK</li>
-            <li><i class="fas fa-check-circle"></i> Regression, Random Forest, SVM, Naïve Bayes</li>
-            <li><i class="fas fa-check-circle"></i> NLP, CNN</li>
-            <li><i class="fas fa-check-circle"></i> Time‑Series: ARIMA, LSTM</li>
+            <li><i class="fas fa-check-circle"></i> NumPy, Pandas, Scikit&#8209;Learn, TensorFlow, XGBoost</li>
+            <li><i class="fas fa-check-circle"></i> CNN, DNN, Random Forest, SVM, Na&iuml;ve Bayes</li>
+            <li><i class="fas fa-check-circle"></i> Time&#8209;Series: ARIMA, LSTM</li>
             <li><i class="fas fa-check-circle"></i> Power BI, Tableau, Excel</li>
           </ul>
         </div>
 
         <div class="skills-column glass-card">
           <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-          <h3>Web, Cloud &amp; Tools</h3>
+          <h3>Languages, Cloud &amp; Tools</h3>
           <ul>
-            <li><i class="fas fa-check-circle"></i> HTML5, CSS3, JavaScript</li>
-            <li><i class="fas fa-check-circle"></i> Responsive Layouts</li>
-            <li><i class="fas fa-check-circle"></i> MySQL, PostgreSQL, Hadoop</li>
-            <li><i class="fas fa-check-circle"></i> AWS (EC2, S3, IAM, SageMaker)</li>
+            <li><i class="fas fa-check-circle"></i> Python, SQL, C++, Java, C</li>
+            <li><i class="fas fa-check-circle"></i> AWS (SageMaker, EC2, S3)</li>
+            <li><i class="fas fa-check-circle"></i> Qiskit</li>
+            <li><i class="fas fa-check-circle"></i> Git, pytest</li>
+            <li><i class="fas fa-check-circle"></i> MySQL, PostgreSQL</li>
             <li><i class="fas fa-check-circle"></i> Docker, CI/CD, Jenkins</li>
-            <li><i class="fas fa-check-circle"></i> Git, GitHub</li>
           </ul>
         </div>
+
       </div>
     </section>
 
@@ -274,13 +274,13 @@
           <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
           <h3>Master of Science in Computer Science</h3>
           <p class="degree">Computer Science</p>
-          <p class="school">University of the Pacific · Stockton, CA · Aug 2022 – Dec 2024</p>
+          <p class="school">University of the Pacific &middot; Stockton, CA &middot; Aug 2022 &ndash; Dec 2024</p>
         </div>
         <div class="edu-block glass-card">
           <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
           <h3>Bachelor of Engineering in Computer Engineering</h3>
           <p class="degree">Computer Engineering</p>
-          <p class="school">LDRP Institute of Technology &amp; Research · Aug 2017 – May 2021</p>
+          <p class="school">LDRP Institute of Technology &amp; Research &middot; Aug 2017 &ndash; May 2021</p>
         </div>
       </div>
     </section>
@@ -292,17 +292,13 @@
       </div>
       <div class="cert-grid">
         <div class="cert-card glass-card">
-          <div class="cert-badge">
-            <i class="fas fa-award"></i>
-          </div>
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
           <h3>AWS Certified Cloud Practitioner</h3>
           <p class="cert-issuer">Amazon Web Services</p>
           <p class="cert-desc">Core understanding of AWS cloud, services, security, and architecture.</p>
         </div>
         <div class="cert-card glass-card">
-          <div class="cert-badge">
-            <i class="fas fa-award"></i>
-          </div>
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
           <h3>Machine Learning Specialization</h3>
           <p class="cert-issuer">Online certification</p>
           <p class="cert-desc">Supervised and unsupervised learning, model evaluation, practical ML workflows.</p>
@@ -313,8 +309,8 @@
     <!-- Contact -->
     <section id="contact" class="section contact">
       <div class="section-header">
-        <h2 class="section-title">Let's talk</h2>
-        <p>Open to entry‑level ML, Data Science, or Data Analytics roles. I&rsquo;d be happy to connect.</p>
+        <h2 class="section-title">Let&rsquo;s talk</h2>
+        <p>Open to ML Engineer, Data Science, or Data Analytics roles. I&rsquo;d be happy to connect.</p>
       </div>
       <div class="contact-layout">
         <div class="contact-details glass-card">
@@ -358,7 +354,7 @@
             <i class="fas fa-download"></i>
             <div>
               <span class="contact-label">Resume</span>
-              <a href="https://drive.google.com/file/d/1tOJDtm24OlOKo1drbkkTV35U0IjGrLjm/view?usp=drive_link" download="Raj_Patel_Resume.pdf" target="_blank" rel="noopener" class="contact-value">Download Resume</a>
+              <a href="https://drive.google.com/file/d/1WrWQH26XhGCFngBLB41iernQIk47pDD6/view?usp=drive_link" download="Raj_Patel_Resume.pdf" target="_blank" rel="noopener" class="contact-value">Download Resume</a>
             </div>
           </div>
         </div>
@@ -382,7 +378,7 @@
           </div>
           <div class="form-group">
             <label for="message">Your message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, role, or idea…" required></textarea>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, role, or idea&hellip;" required></textarea>
           </div>
           <button type="submit" class="btn primary">
             <span>Send message</span>
@@ -396,7 +392,7 @@
 
   <footer class="site-footer">
     <div class="footer-content">
-      <p>© <span id="year"></span> · Raj Patel · Entry‑Level Machine Learning Engineer</p>
+      <p>&copy; <span id="year"></span> &middot; Raj Patel &middot; Machine Learning Engineer</p>
       <div class="footer-links">
         <a href="mailto:raj.patel190702@gmail.com"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/rajpatel19" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
